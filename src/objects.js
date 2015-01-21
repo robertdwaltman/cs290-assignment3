@@ -47,6 +47,7 @@ function MessageLog(user){
 	this.numSent = 0;
 	this.numReceived = 0;
 	this.logMessage = function(messageText, direction){
+		//I used unshift to add the values to the start of the array, instead of the end
 		this.messages.unshift(messageText);
 		this.directions.unshift(direction);
 		this.messageCount++;
@@ -54,6 +55,7 @@ function MessageLog(user){
 			this.numSent++;
 		else
 			this.numReceived++;
+		//if there are more than 5 messages after the new one was added, remove the oldest one
 		if(this.messageCount > 5){
 			this.messages.pop();
 			this.directions.pop();

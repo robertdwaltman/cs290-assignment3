@@ -78,6 +78,10 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+/**
+I added searchPattern as a regular expression. The regexp testing tool at
+https://www.regex101.com/#javascript is great for experimenting with regular expressions!
+**/
 function parseGit(logArray){
 	var searchPattern = /(^\w*)\s(\S*\s\S*\s\S*\s\S*\s\S*\s\S*)\s"([^"]*)"/;
 	var resultArray;

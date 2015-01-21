@@ -47,6 +47,7 @@ Output:
 return true if c is null, false otherwise
 */
 function isNull(c) {
+  //need to use strict === comparison operator to reject undefined
   if (c === null)
     return true;
   else
