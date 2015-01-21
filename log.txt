@@ -1,3 +1,8 @@
 Start: Tuesday, Jan 20 2015 14:04:00 -0500
 End: Tuesday, Jan 20 2015 21:46:30 -0500
 Completed functions.js
+
+Start: Wednesday, Jan 21 2015 14:39:00 -0500
+End: Wednesday, Jan 21 2015 15:04:32 -0500
+Completed variables.js
+

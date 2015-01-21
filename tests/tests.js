@@ -111,7 +111,7 @@ test("MessageLog constructor tests", function(assert){
 
 test("MessageLog instance tests", function(assert){
 	assert.expect( 7 );
-	this.testLog.logMessage('I 0', 1);
+	this.testLog.logMessage('I 1', 1);
 	assert.equal(this.testLog.lastReceivedMessage(),'I 1','Records 1 received message.');
 	assert.equal(this.testLog.totalReceived(),1,'Count reflects 1 received message.');
 	this.testLog.logMessage('I 1', 1);

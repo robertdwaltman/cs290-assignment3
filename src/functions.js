@@ -81,7 +81,7 @@ function GitLog(hash, date, message) {
 function parseGit(logArray){
 	var searchPattern = /(^\w*)\s(\S*\s\S*\s\S*\s\S*\s\S*\s\S*)\s"([^"]*)"/;
 	var resultArray;
-	var gitObject = new Array();
+	var gitObject = [];
 	
 
 	for (var i = 0; i < logArray.length; i++){
