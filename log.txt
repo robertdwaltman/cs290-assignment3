@@ -9,3 +9,17 @@ Completed variables.js
 Start: Wednesday, Jan 21 2015 15:10:00 -0500
 End: Wednesday, Jan 21 2015 18:22:19 -0500
 Completed objects.js
+
+BEGIN PART 2
+
+Start: Tuesday, Jan 27 2015 18:30:00 -0500
+End: Wednesday, Jan 28 2015 02:21:00 -0500
+Created html and javascript document frameworks
+
+Start: Wednesday, Jan 28 2015 11:50:00 -0500
+End: Thursday, Jan 29 2015 04:20:00 -0500
+Created basic JSON functionality. Struggled. Instructions/lectures were mostly unhelpful. Still not complete, and this is the only class I've worked on all week.
+
+Start: Thursday, Jan 29 2015 11:30:00 -0500
+End: Thursday, Jan 29 2015 18:40:00 -0500
+Feature-complete, did some final debugging. Working as intended to the best of my knowledge. This was the most difficult thing I've done in this degree program.
